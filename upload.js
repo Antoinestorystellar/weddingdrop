@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch('https://uploadthing.com/api/uploadFiles', {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer VOTRE_CLE_UPLOADTHING',
+          'Authorization': 'Bearer sk_live_f685b216f1eed0dd93ac0b9f6db50f42e9d14862fb879b1ce8e99442bfcff881',
         },
         body: formData,
       });
